@@ -1,3 +1,8 @@
+//Here you are going to try changing the color of the title's text to any other of your preference.
+
 function change() {
-    // your code goes here
+    const title = document.getElementById("titleIdName")
+    title.style = "color: blue;"
 }
+
+change()
