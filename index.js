@@ -16,5 +16,3 @@ function change() {
     console.log(titleC)
     console.log(titleText)
 }
-
-change()
