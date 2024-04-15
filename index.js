@@ -5,10 +5,9 @@ Challenge: try adding new red squares to the article. How would you do it ? Don'
 
 Have fun and don't be afraid of breaking up everything ! Happy coding !
 */
+
+let squaresContainer = document.querySelector(".squaresContainer")
+let squareHTML = '<div class="redSquare"><img src=""></div>'
 function change() {
-    // add red squares to the HTML when the button is clicked
-    const redSquare = document.querySelector(".redSquare").innerHTML
-    let redSquareElement = document.createElement('div')
-    redSquareElement.innerHTML = redSquare
-    document.querySelector("article").appendChild(redSquareElement)
+    squaresContainer.innerHTML += squareHTML
 }
