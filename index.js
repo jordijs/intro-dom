@@ -2,7 +2,6 @@
 
 function change() {
     const title = document.getElementById("titleIdName")
-    title.style = "color: blue;"
+    titleElement.style = "color: blue;"
 }
 
-change()
